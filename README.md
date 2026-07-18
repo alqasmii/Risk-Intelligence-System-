@@ -13,38 +13,44 @@ Built as a portfolio piece to demonstrate production-grade engineering patterns 
 ### Executive Dashboard
 Portfolio KPIs, risk-tier distribution, and the live AI adverse-media feed at a glance.
 
-![Executive Dashboard](docs/screenshots/dashboard.png)
+<img width="1916" height="915" alt="image" src="https://github.com/user-attachments/assets/5eb450fa-684e-4bbb-9a4e-5e174ac6acad" />
+<img width="1639" height="809" alt="image" src="https://github.com/user-attachments/assets/fa716e32-5912-4529-8082-c32d4e9e1adf" />
+
 
 ### Portfolio Analytics
 Sector and country concentration, loan-book aging, and Expected Loss (PD × LGD × EAD) with score-trend history.
+<img width="1639" height="826" alt="image" src="https://github.com/user-attachments/assets/36f1da89-b2af-4831-94e7-aedff95392de" />
+<img width="1651" height="905" alt="image" src="https://github.com/user-attachments/assets/21b3bf45-2768-4f53-a6d8-d8dd7a1d028e" />
 
-![Portfolio Analytics](docs/screenshots/analytics.png)
+
 
 ### Model Stress Testing
 Re-scores the entire book through the production scoring engine under a macro shock. Shown running the *2008-Style Credit Crisis* preset — Expected Loss before/after, tier-migration table, and EL waterfall.
 
-![Model Stress Tests](docs/screenshots/stress-tests.png)
+<img width="1646" height="829" alt="image" src="https://github.com/user-attachments/assets/5bb81225-5918-44c4-bc8f-43815088aa9a" />
 
 ### Client Explorer & Client 360°
 Searchable client directory with a full dossier drawer: score breakdown, exposures, transactions, and open flags.
 
-![Client Explorer](docs/screenshots/clients.png)
-![Client 360 Drawer](docs/screenshots/client-360.png)
+<img width="1651" height="817" alt="image" src="https://github.com/user-attachments/assets/a7ad5f52-3ba7-46d6-8358-ec0f83cf914d" />
+<img width="568" height="887" alt="image" src="https://github.com/user-attachments/assets/ed13b636-1858-463f-ba6e-33f96554753d" />
+
 
 ### Live Transactions
 Paginated transaction feed with client attribution and a rolling-window statistics strip.
-
-![Live Transactions](docs/screenshots/transactions.png)
+<img width="1647" height="817" alt="image" src="https://github.com/user-attachments/assets/fd0c4dcd-6687-4d6c-b699-ccbfc715d7e5" />
 
 ### Fraud & AML Alerts
 The anomaly queue produced by the 7-rule detection engine, with severity and investigator workflow.
 
-![Fraud Alerts](docs/screenshots/fraud-alerts.png)
+<img width="1643" height="825" alt="image" src="https://github.com/user-attachments/assets/20982386-73b5-4c84-a36b-099d29cc4769" />
+
 
 ### Risk Governance Settings
 Live tier-boundary tuning with a migration preview showing how many clients move tier before you commit.
 
-![Settings](docs/screenshots/settings.png)
+<img width="1655" height="822" alt="image" src="https://github.com/user-attachments/assets/00c03427-dae5-4c19-b9f5-437f96e1cc50" />
+
 
 ---
 
