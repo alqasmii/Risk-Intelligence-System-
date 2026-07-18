@@ -1,0 +1,36 @@
+# ==============================================================================
+# Automated Risk Intelligence System — Python Dependencies
+# ==============================================================================
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# ── Database ORM ─────────────────────────────────────────────────────────────
+pg8000==1.31.2
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# ── Data Validation & Settings ─────────────────────────────────────────────────
+pydantic==2.5.2
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# ── Data Processing (core of algorithmic engine) ───────────────────────────────
+pandas==2.1.4
+numpy==1.26.2
+
+# ── Mock Data Generation ────────────────────────────────────────────────────────
+Faker==21.0.0
+
+# ── Static file serving (required for FastAPI StaticFiles / React frontend) ────
+aiofiles==23.2.1
+
+# ── Testing ─────────────────────────────────────────────────────────────────────
+pytest==7.4.3
+pytest-asyncio==0.23.2
+httpx==0.26.0
+
+# ── Development Quality ─────────────────────────────────────────────────────────
+black==23.12.1
+flake8==7.0.0
